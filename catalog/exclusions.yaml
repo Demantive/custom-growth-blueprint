@@ -1,0 +1,110 @@
+exclusions:
+  custom_website_development:
+    name: "Custom Website Development"
+    description: "We don't build websites from scratch or do custom coding - our focus is marketing that drives results, not becoming your dev team"
+    category: "web_development"
+    reason: "Outside core competency - requires dedicated development resources and ongoing maintenance"
+    alternatives:
+      - "Landing page optimization within existing sites"
+      - "Conversion rate optimization on current pages"
+      - "Recommend vetted development partners"
+    
+  ecommerce_platform_setup:
+    name: "E-commerce Platform Setup"
+    description: "We don't set up Shopify stores, WooCommerce sites, or handle product catalog management"
+    category: "web_development"
+    reason: "E-commerce requires specialized technical expertise and ongoing platform maintenance"
+    alternatives:
+      - "E-commerce advertising campaigns"
+      - "Product page conversion optimization"
+      - "E-commerce email automation sequences"
+      
+  brand_design_identity:
+    name: "Brand Design & Identity Creation"
+    description: "We don't create logos, brand guidelines, or full visual identity packages - we work with your existing brand"
+    category: "creative_services"
+    reason: "Brand identity requires extensive discovery and long-term creative relationships"
+    alternatives:
+      - "Brand-consistent ad creative development"
+      - "Existing brand asset optimization"
+      - "Partner with established brand agencies"
+      
+  social_media_management:
+    name: "Ongoing Social Media Management"
+    description: "We don't post daily content, respond to comments, or manage your social media calendar"
+    category: "content_management"
+    reason: "Social media management requires daily attention and community engagement expertise"
+    alternatives:
+      - "Social media advertising campaigns"
+      - "Content strategy for social channels"
+      - "Social media automation setup"
+      
+  seo_technical_implementation:
+    name: "Technical SEO Implementation"
+    description: "We don't fix site speed, server issues, or implement complex technical SEO changes on your website"
+    category: "technical_services"
+    reason: "Requires backend development access and ongoing technical maintenance"
+    alternatives:
+      - "Technical SEO audit and recommendations"
+      - "Content-based SEO optimization"
+      - "Coordinate with your development team"
+      
+  print_traditional_media:
+    name: "Print & Traditional Media Advertising"
+    description: "We don't do newspaper ads, radio spots, billboards, or direct mail campaigns"
+    category: "traditional_advertising"
+    reason: "Traditional media doesn't align with our digital-first, data-driven approach"
+    alternatives:
+      - "Digital advertising with broader reach"
+      - "Targeted online campaigns"
+      - "Partner with traditional media agencies if needed"
+      
+  pr_media_relations:
+    name: "Public Relations & Media Relations"
+    description: "We don't pitch journalists, manage press releases, or handle crisis communications"
+    category: "public_relations"
+    reason: "PR requires specialized relationships and expertise in media landscape"
+    alternatives:
+      - "Content marketing for thought leadership"
+      - "LinkedIn executive positioning"
+      - "Coordinate with PR specialists"
+      
+  event_management:
+    name: "Event Planning & Management"
+    description: "We don't organize conferences, trade shows, or corporate events - but we'll help you maximize their marketing impact"
+    category: "event_services"
+    reason: "Event management requires logistical expertise and on-site coordination"
+    alternatives:
+      - "Pre-event lead generation campaigns"
+      - "Post-event follow-up automation"
+      - "Event-specific landing pages and registration optimization"
+      
+  sales_training_enablement:
+    name: "Sales Training & Enablement"
+    description: "We don't train your sales team or create sales playbooks - we generate qualified leads for them to close"
+    category: "sales_services"
+    reason: "Sales enablement requires deep understanding of internal processes and ongoing training"
+    alternatives:
+      - "Lead qualification and scoring systems"
+      - "Sales-ready content creation"
+      - "CRM integration and lead routing"
+      
+  custom_software_development:
+    name: "Custom Software & App Development"
+    description: "We don't build custom applications, mobile apps, or proprietary software solutions"
+    category: "software_development"
+    reason: "Software development requires extensive technical resources and long-term support commitments"
+    alternatives:
+      - "Marketing automation platform optimization"
+      - "Integration between existing marketing tools"
+      - "Recommend software development partners"
+      
+  compliance_legal_services:
+    name: "Compliance & Legal Marketing Services"
+    description: "We don't handle HIPAA, financial services regulations, or provide legal marketing compliance guidance"
+    category: "legal_compliance"
+    reason: "Regulatory compliance requires specialized legal expertise and industry-specific knowledge"
+    alternatives:
+      - "General marketing best practices"
+      - "Work within your existing compliance guidelines"
+      - "Coordinate with your legal team for approval processes"

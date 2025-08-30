@@ -1,0 +1,70 @@
+engagement_model:
+  contract_structure:
+    pilot_phase:
+      duration_days: 90
+      purpose: "Validate channel-market fit and establish baseline performance"
+      deliverables: ["Channel setup", "Initial optimization", "Performance baseline", "Growth recommendations"]
+      outcome: "Data-driven recommendation for ongoing engagement structure"
+      
+    ongoing_contracts:
+      standard_duration_months: [6, 12]
+      renewal_terms: "Auto-renewal with 30-day cancellation notice"
+      performance_reviews: "Quarterly business reviews with contract optimization"
+      
+  communication_structure:
+    daily_operations:
+      platform: "Shared Slack channel"
+      participants: ["Client point of contact", "Account manager", "Channel specialists"]
+      purpose: "Real-time updates, quick decisions, campaign optimizations"
+      
+    performance_reviews:
+      foundation_tier: "Bi-weekly 30-minute calls"
+      growth_tier: "Weekly 45-minute calls" 
+      enterprise_tier: "Weekly 60-minute calls + monthly strategy sessions"
+      format: "Data review, optimization recommendations, next period planning"
+      
+    reporting_cadence:
+      automated_alerts: "Real-time for budget thresholds and performance anomalies"
+      weekly_summaries: "Every Friday via email and Slack"
+      formal_reports: "Monthly comprehensive analysis with strategic recommendations"
+      
+  organizational_integration:
+    early_stage_companies:
+      typical_size: "Pre-Series A to Series A"
+      reporting_structure: "Direct to CEO/Founder"
+      decision_making: "Independent execution with CEO approval on major changes"
+      meeting_cadence: "Weekly founder check-ins"
+      
+    growth_stage_companies:
+      typical_size: "Series B+"
+      reporting_structure: "Marketing leadership (CMO, VP Marketing, Marketing Director)"
+      decision_making: "Embedded team member with marketing leader oversight"
+      meeting_cadence: "Bi-weekly leadership syncs + weekly tactical execution"
+      
+    enterprise_companies:
+      typical_size: "Established revenue, mature marketing org"
+      reporting_structure: "Senior Marketing Leader with cross-functional stakeholders"
+      decision_making: "Collaborative with internal team, strategic input on campaigns"
+      meeting_cadence: "Weekly marketing team integration + monthly stakeholder reviews"
+      
+  success_metrics:
+    pilot_phase:
+      primary: "Channel performance vs baseline"
+      secondary: ["Lead quality improvement", "Cost efficiency gains", "Process optimization"]
+      
+    ongoing_engagement:
+      primary: "Revenue impact and pipeline contribution"
+      secondary: ["Channel optimization", "Cross-platform synergies", "Team capability building"]
+      
+  escalation_procedures:
+    performance_issues:
+      threshold: "20% below agreed targets for 2 consecutive weeks"
+      process: "Immediate Slack alert → Emergency optimization call within 24hrs → Action plan within 48hrs"
+      
+    budget_concerns:
+      threshold: "Projected to exceed monthly budget by 15%"
+      process: "Auto-alert to client → Reallocation recommendations within 4 hours → Approval required to continue"
+      
+    strategic_pivots:
+      triggers: ["Major market changes", "Product launches", "Competitive threats"]
+      process: "Strategy call within 48hrs → Revised recommendations within 1 week → Implementation upon approval"

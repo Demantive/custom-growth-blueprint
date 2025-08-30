@@ -1,0 +1,116 @@
+capabilities:
+  cross_platform_abm:
+    name: "Cross-Platform ABM Audience Targeting"
+    category: "account_based_marketing"
+    effort_points: 8
+    prerequisites: []
+    deliverables:
+      - "Custom audience segments deployable across LinkedIn, Google, Meta, and Reddit"
+      - "Precision targeting parameters (title, company size, tech stack, funding stage)"
+      - "Account-level intelligence with verified contact data"
+      - "Cross-platform audience synchronization for consistent messaging"
+    
+  linkedin_ads:
+    name: "LinkedIn Ads"
+    category: "paid_advertising"
+    effort_points: 15
+    prerequisites: ["cross_platform_abm"]
+    deliverables:
+      - "Thought leadership video & text content for awareness driving"
+      - "Warm audience retargeting sequences using native lead-gen forms"
+      - "High-intent campaigns (demo requests, trial offers, consultation bookings)"
+      - "Webinar and event promotion with registration optimization"
+      - "Conversational ads implementation with LinkedIn best practices"
+      - "LinkedIn Insights Tag setup with offline conversion tracking"
+      - "Engagement-to-conversion funnel with advanced audience warming"
+    
+  google_search_ads:
+    name: "Google Search Ads"
+    category: "paid_advertising" 
+    effort_points: 10
+    prerequisites: ["custom_landing_pages"]
+    deliverables:
+      - "Intent-based keyword strategy with competitor gap analysis"
+      - "Ad copy that outperforms industry benchmarks"
+      - "Negative keyword lists to eliminate wasted spend"
+      - "Google offline conversion tracking for complete attribution"
+      - "Enhanced conversion tracking with first-party data integration"
+      
+  meta_ads:
+    name: "Meta Ads (Instagram/Facebook)"
+    category: "paid_advertising"
+    effort_points: 13
+    prerequisites: ["cross_platform_abm", "branded_image_ads"]
+    deliverables:
+      - "ABM, lookalike, and open targeting audience strategies"
+      - "Custom lead qualification forms with intelligent routing"
+      - "CAPI offline conversion tracking setup for full attribution"
+      - "Creative testing across Instagram Stories, Feed, and Facebook placements"
+      - "Audience insights and behavioral analysis for optimization"
+      
+  google_abm_display:
+    name: "Google ABM Display Advertising"
+    category: "paid_advertising"
+    effort_points: 14
+    prerequisites: ["cross_platform_abm", "branded_image_ads"]
+    deliverables:
+      - "Account-based audience creation with lookalike expansion"
+      - "Display creative suite optimized for each funnel stage"
+      - "Cross-device retargeting sequences"
+      - "Google offline conversion tracking for complete attribution"
+      - "View-through attribution and assisted conversion analysis"
+      
+  custom_landing_pages:
+    name: "Custom Landing Page Development"
+    category: "conversion_optimization"
+    effort_points: 16
+    prerequisites: []
+    deliverables:
+      - "Mobile-first responsive landing pages with A/B test framework"
+      - "Psychological conversion triggers and social proof integration"
+      - "Form optimization with progressive profiling"
+      - "Page speed optimization for sub-3-second load times"
+      
+  ai_avatar_video_ads:
+    name: "AI Avatar Video Advertising"
+    category: "creative_content"
+    effort_points: 18
+    prerequisites: ["cross_platform_abm"]
+    deliverables:
+      - "Custom AI avatar creation with brand voice training"
+      - "Personalized video scripts for each target segment"
+      - "AI b-roll"
+      - "Performance analytics with engagement data"
+      
+  branded_image_ads:
+    name: "Branded Image Ads"
+    category: "creative_content"
+    effort_points: 8
+    prerequisites: []
+    deliverables:
+      - "Brand-consistent ad creative library (50+ variations)"
+      - "Multi-format image optimization (display, social, search)"
+      - "Creative performance analytics and refresh recommendations"
+    
+  seo_pillar_content:
+    name: "SEO Pillar Content Strategy"
+    category: "content_marketing"
+    effort_points: 22
+    prerequisites: []
+    deliverables:
+      - "Keyword research with search intent mapping and difficulty analysis"
+      - "Pillar page architecture with internal linking strategy"
+      - "Content cluster planning (12-month roadmap)"
+      - "Technical SEO optimization and schema markup"
+      - "Content performance tracking with SERP monitoring"
+    
+  marketing_automation:
+    name: "Marketing Automation Setup"
+    category: "automation"
+    effort_points: 20
+    prerequisites: ["seo_pillar_content"]
+    deliverables:
+      - "Behavioral trigger mapping with lead scoring algorithms"
+      - "Multi-channel nurture sequences (email, SMS, social)"
+      - "Dynamic content personalization based on firmographic data"
+      - "Revenue attribution tracking with closed-loop reporting"

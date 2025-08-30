@@ -1,0 +1,47 @@
+pricing:
+  guardrails:
+    minimum_monthly_engagement_usd: 5000
+    maximum_monthly_engagement_usd: 25000
+    typical_engagement_range_usd: [8000, 15000]
+    
+  capability_pricing:
+    low_effort: [5000, 8000]      # 8-10 effort points
+    medium_effort: [8000, 12000]  # 12-16 effort points  
+    high_effort: [12000, 18000]   # 18-22 effort points
+    
+  engagement_tiers:
+    foundation:
+      monthly_range_usd: [5000, 8000]
+      typical_capabilities: ["1-2 core channels", "basic tracking", "monthly reporting"]
+      ideal_for: "Single channel focus, testing phase"
+      
+    growth:
+      monthly_range_usd: [8000, 15000]
+      typical_capabilities: ["2-4 integrated channels", "advanced tracking", "bi-weekly reporting"]
+      ideal_for: "Multi-channel campaigns, scaling phase"
+      
+    enterprise:
+      monthly_range_usd: [15000, 25000]
+      typical_capabilities: ["4+ channels", "custom integrations", "weekly reporting", "dedicated support"]
+      ideal_for: "Complex campaigns, enterprise accounts"
+      
+  pricing_factors:
+    audience_complexity: 
+      simple: 1.0    # Single segment, clear targeting
+      moderate: 1.2  # 2-3 segments, some customization
+      complex: 1.5   # Multiple segments, extensive customization
+      
+    channel_integration:
+      single: 1.0    # One primary channel
+      dual: 1.3      # Two integrated channels
+      multi: 1.6     # 3+ channels with cross-platform optimization
+      
+    reporting_level:
+      standard: 1.0  # Monthly reports, basic metrics
+      enhanced: 1.2  # Bi-weekly reports, advanced analytics
+      premium: 1.5   # Weekly reports, custom dashboards, attribution
+      
+  billing:
+    payment_terms: "Net 30"
+    contract_minimum_months: 6
+    cancellation_notice_days: 30

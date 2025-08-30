@@ -1,0 +1,37 @@
+week_ending: "2025-08-23"
+client_id: "techflow_solutions"
+
+metrics:
+  budget_spent: 4200
+  budget_remaining: 20800
+  leads_generated: 23
+  opportunities_created: 4
+  cost_per_lead: 182.61
+  conversion_rate: 0.174
+  pipeline_value: 125000
+  activities_completed: 8
+
+changelog:
+  - type: "action"
+    title: "Launched targeted LinkedIn ABM campaign"
+    description: "Deployed personalized LinkedIn ads targeting 50 enterprise IT directors from our priority account list. Campaign includes 3 ad variations with technical case studies and ROI calculators."
+    impact: "high"
+    next_steps: "Monitor performance for 48 hours, then optimize based on engagement data"
+    
+  - type: "insight"
+    title: "Enterprise accounts show 3x higher engagement rates"
+    description: "Analysis of first week's data reveals enterprise prospects (500+ employees) have 34% click-through rates vs 11% for mid-market. Enterprise leads also have 60% longer session duration on landing pages."
+    impact: "high"
+    next_steps: "Reallocate 30% of budget toward enterprise targeting and develop enterprise-specific landing pages"
+    
+  - type: "ask"
+    title: "Need technical resource for CRM integration"
+    description: "To properly track lead attribution from LinkedIn to Salesforce, we need 4-6 hours from your technical team to set up custom field mapping and webhook integration."
+    impact: "medium"
+    next_steps: "Schedule technical call with your IT team by next Tuesday"
+    
+  - type: "risk"
+    title: "Q4 trade show deadline approaching"
+    description: "Lead generation needs to ramp up significantly to hit targets before Q4 trade show. Current pace would deliver 300 leads vs 450 target by October 15th."
+    impact: "high"
+    next_steps: "Recommend increasing ad spend by $2K/week and adding email nurture sequence to existing contacts"

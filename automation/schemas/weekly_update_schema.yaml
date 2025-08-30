@@ -1,0 +1,113 @@
+weekly_update_schema:
+  version: "1.0"
+  
+  required_fields:
+    - week_ending
+    - client_id
+    - metrics
+    - changelog
+    
+  structure:
+    week_ending:
+      type: "date"
+      format: "YYYY-MM-DD"
+      description: "Friday of the reporting week"
+      
+    client_id:
+      type: "string"
+      description: "Unique client identifier"
+      
+    metrics:
+      type: "object"
+      required_fields:
+        - budget_spent
+        - budget_remaining
+        - leads_generated
+        - opportunities_created
+      optional_fields:
+        - cost_per_lead
+        - conversion_rate
+        - pipeline_value
+        - activities_completed
+      properties:
+        budget_spent:
+          type: "number"
+          description: "Amount spent this week in USD"
+        budget_remaining:
+          type: "number"
+          description: "Remaining budget for current period in USD"
+        leads_generated:
+          type: "integer"
+          description: "New leads generated this week"
+        opportunities_created:
+          type: "integer"
+          description: "New opportunities created this week"
+        cost_per_lead:
+          type: "number"
+          description: "Cost per lead for the week"
+        pipeline_value:
+          type: "number"
+          description: "Total pipeline value generated this week"
+          
+    changelog:
+      type: "array"
+      min_items: 1
+      items:
+        type: "object"
+        required_fields:
+          - type
+          - title
+          - description
+        optional_fields:
+          - impact
+          - next_steps
+        properties:
+          type:
+            type: "string"
+            enum: ["action", "insight", "ask", "risk"]
+            description: "Type of changelog entry"
+          title:
+            type: "string"
+            max_length: 100
+            description: "Brief title for the changelog entry"
+          description:
+            type: "string"
+            max_length: 500
+            description: "Detailed description of the entry"
+          impact:
+            type: "string"
+            enum: ["low", "medium", "high"]
+            description: "Expected impact level"
+          next_steps:
+            type: "string"
+            max_length: 300
+            description: "Recommended next steps or actions"
+            
+  changelog_types:
+    action:
+      description: "Actions taken or completed this week"
+      examples:
+        - "Launched new LinkedIn campaign"
+        - "Completed landing page optimization"
+        - "Sent email sequence to nurture leads"
+        
+    insight:
+      description: "Key findings or learnings from data/activities"
+      examples:
+        - "Enterprise accounts show 3x higher conversion rate"
+        - "Video content generates 40% more engagement"
+        - "Tuesday emails have best open rates"
+        
+    ask:
+      description: "Requests for client input, approval, or resources"
+      examples:
+        - "Need approval for additional ad spend"
+        - "Require technical resource for integration"
+        - "Request feedback on creative concepts"
+        
+    risk:
+      description: "Potential issues, blockers, or concerns"
+      examples:
+        - "Budget burn rate higher than expected"
+        - "Key contact unavailable for campaign review"
+        - "Technical integration delayed"
